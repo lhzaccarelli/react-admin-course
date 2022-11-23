@@ -1,0 +1,26 @@
+{
+  "name": "react-admin-course",
+  "version": "1.0.0",
+  "description": "React Admin Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./src/middlewares/headers.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lhzaccarelli@github.com/lhzaccarelli/react-admin-course.git"
+  },
+  "keywords": [],
+  "author": "Laerte H Zaccarelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhzaccarelli/react-admin-course/issues"
+  },
+  "homepage": "https://github.com/lhzaccarelli/react-admin-course#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "json-server": "^0.17.1"
+  }
+}

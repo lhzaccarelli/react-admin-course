@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post One1",
+      "body": "This is the first post",
+      "publishedAt": "10-01-2020"
+    },
+    {
+      "id": "2",
+      "title": "Post Two",
+      "body": "This is the second post",
+      "publishedAt": "11-02-2020"
+    },
+    {
+      "id": "3",
+      "title": "Post Three",
+      "body": "This is the third post",
+      "publishedAt": "12-03-2020"
+    },
+    {
+      "title": "Post Four",
+      "body": "Test Create",
+      "publishedAt": "2022-11-24",
+      "id": "1V6uy03"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@doe.com.br"
+    }
+  ]
+}
